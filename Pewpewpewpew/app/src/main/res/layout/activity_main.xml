@@ -13,10 +13,15 @@
 
     <Button
         android:text="@string/button_name"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title.Inverse"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="185dp"
+        android:layout_marginTop="185sp"
+        android:textAllCaps="true"
+        android:background="@drawable/btn"
         android:id="@+id/button" />
 </RelativeLayout>

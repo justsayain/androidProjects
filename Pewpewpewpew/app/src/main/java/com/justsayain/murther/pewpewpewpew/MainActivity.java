@@ -24,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 v.startAnimation(animGrow);
                 pew.start();
+                if(pew.isPlaying())
+                    pew.start();
+                //pew.setLooping(true);
             }
         });
     }
